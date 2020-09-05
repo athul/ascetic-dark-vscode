@@ -1,0 +1,27 @@
+{
+    "name": "ascetic-night",
+    "displayName": "Ascetic-Night",
+    "description": "Minimal Color ported for VsCode from the Ascetic-Night theme of Sublime",
+    "version": "0.0.1",
+    "publisher": "athul",
+    "license": "MIT",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/athul/ascetic-dark-vscode"
+	},
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ascetic-Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Ascetic-Night-color-theme.json"
+            }
+        ]
+    }
+}
